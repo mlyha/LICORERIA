@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'KGRedHands';
+    src: url('KGRedHands.ttf') format('truetype');
+}
+
+body { 
+  font-family: 'KGRedHands';
+  text-align: center;
+}
+
+h1 {
+  color: #FFEBCD; 
+  font-size: 36px;
+}
+
+h2 {
+  color:  #996515;
+  font-size: 24px;
+}
+
+form {
+  margin: 20px auto;
+  padding: 20px;
+  width: 50%;
+  background-color: #FFEBCD;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: left;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #996515;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+  background-color: #996515;
+}
+
+table {
+  margin: 20px auto;
+  width: 80%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  background-color: #996515;
+  color: white;
+  font-size: 16px;
+}
+
+table tr:nth-child(even) {
+  background-color: #996515;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
